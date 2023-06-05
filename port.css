@@ -1,0 +1,632 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+body{
+    background: white;
+}
+nav{
+    background-color: #008b8b;
+    height: 100px;
+    width: 100%;
+    padding: 9px 30px;
+    position: fixed;
+}
+label.name{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 0px 30px;
+    font-weight: bold;
+    position:absolute;
+    top: 20px;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 8px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+img.logo1{
+    height: 80px;
+    width: 80px;
+    border-radius: 15px; 
+}
+a.active,a:hover{
+    background: #acb9b9;
+    transition: 0.5s;
+    color: #000000;
+}
+.checkbtn{
+    font-size: 50px;
+    color: white;
+    float: right;
+    margin-right: 40px;
+    line-height: 60px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+div.home{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    padding-top: 80px;
+}
+div.intro{
+    padding: 120px 50px;
+    width: 70%;
+}
+h1.wel{
+    font-size: 55px;
+}
+div p{
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 15px;
+    text-align: justify;
+}
+.button{
+    position: static;
+    margin-top: 20px;
+    height: 60px;
+    width:260px;
+    background: #008b8b;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}    
+.content i{
+    font-size: 35px;
+    padding-right: 10px;
+}
+.btn-txt{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+div.edu{
+    padding: 60px;
+    width: 100%;
+    padding-top: 100px;
+}
+.edu-txt{
+    text-align: justify;
+}
+h1.head{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+div.ten{
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-right: 300px;                                                                                                                                                                                                                          ;
+}
+.pb1{
+    background-color: #acb9b9;
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px;
+    height: 30px;
+    margin-top: 10px;
+}
+.per{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 94%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+div.twe{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-right: 300px; 
+}
+.pb2{
+    background-color: #acb9b9;
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px;
+    height: 30px;
+    margin-top: 10px;
+}
+.per2{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 79%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+div.be{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-right: 300px;                                                                                                                                                                                                                           ;
+}
+.pb3{
+    background-color: #acb9b9;
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px;
+    height: 30px;
+    margin-top: 10px;
+}
+.per3{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 94%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+h1.ski{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+div.skills{
+    padding: 60px;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 100px;
+    display: inline-block;
+}
+div.pgmski{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 40px; 
+    width: 70%;
+}
+div.java{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;                                                                                                                                                                                                                          ;
+}
+.pb4{
+    background-color: #acb9b9;
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px;
+    height: 30px;
+    margin-top: 10px;
+}
+.per4{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per14{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per5{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per6{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 70%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per7{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per8{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per9{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 80%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per10{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per11{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 50%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per12{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+.per13{
+    background-color: #008b8b;
+    text-align: center;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 10px;
+    height: 24px;
+    line-height: 21px;
+    font-size: 20px;
+}
+div.soft{
+    margin: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 55px;
+    margin-top: 40px;
+    width: 50%;
+}
+div.la{
+    display: flex;
+}
+ul .sk{
+    list-style: disc!important;
+    list-style-type: circle;
+    color: #000;
+    padding: 60px;
+}
+div.lan{
+    margin: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 55px;
+    margin-top: 40px;
+    width: 50%;
+}
+img.pic{
+    padding:50px;
+    height: 550px;
+    border-radius: 100px;
+}
+div.project{
+    height: 400px;
+    padding: 20px;
+    padding-top: 100px;
+}
+h1.proj{
+    font-size: 55px;
+    text-transform: uppercase;    
+}
+div.certificate{
+    padding: 60px;
+    padding-top: 100px;
+}
+h1.cert{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+div.cer{
+    padding: 20px 40px;
+    font-size: 28px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+div.con{
+    padding: 20px;
+}
+div.cont{
+    margin-top: 10px;
+    font-size: 28px;
+    line-height: 50px;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+.contact{
+    font-size: 55px;
+    text-transform: uppercase;
+}
+i.en{
+    font-family: Font Awesome 5 Brands;
+    font-weight: 400;
+}
+@media (max-width: 1050px){
+    label.name{
+        font-size: 40px;
+        padding-left: 30px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 999px){
+    .checkbtn{
+        display: block;
+        margin-right: 0px;
+    }
+    nav{
+        background: #008b8b;
+        height: 80px;
+        width: 100%;
+        padding: 9px 30px;
+    }
+    img.logo1{
+        height: 60px;
+        width: 60px;
+    }
+    label.name{
+        position: absolute;
+        top: 20px;
+        font-size: 35px;
+        padding: 0px 15px;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 65vh;
+        background-color: #acb9b9;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 10px;
+    }
+    nav ul li a{
+        font-size: 20px;
+        font-weight: bolders;
+    }
+    a:hover,a.active{
+        background: none;
+        color: #000000
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    div.edu{
+        padding-top: 80px;
+    }
+    div.home{
+        padding-top: 100px;
+    }
+    div.intro{
+        padding: 40px 15px;
+    }
+    h1.wel{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    div p{
+        font-size: 19px;
+        line-height: 30px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    img.pic{
+        padding: 10px;
+        height: 250px;
+        border-radius: 30px;
+        margin-top: 80px;
+    }
+    .button{
+        position: static;
+        margin-top: 20px;
+        height: 45px;
+        width:220px;
+        background: #008b8b;
+        border-radius: 10px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+        cursor: pointer;
+    }
+    .content{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }    
+    .content i{
+        font-size:25px;
+        padding-right: 10px;
+    }
+    .btn-txt{
+        color: white;
+        font-size: 19px;
+        font-weight: 500;
+    }
+    h1.head{
+        font-size: 30px;
+        text-transform: uppercase;
+        margin: 20px;
+    }
+    .edu-txt{
+        margin: 20px;
+
+    }
+    div.ten{
+        margin: 20px;
+        font-size: 20px;
+        font-weight: 500;                                                                                                                                                                                                                           ;
+    }
+    div.twe{
+        margin: 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    div.be{
+        margin: 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    div.skills{
+        padding-top: 80px;
+    }
+    h1.ski{
+        font-size: 30px;
+        text-transform: uppercase;
+        margin: 20px;
+    }
+    div.pgmski{
+        font-size: 22px;
+        width: 90%;
+    }
+    .pb4{
+        height: 25px;
+    }
+    .per14{
+        height: 19px;
+        font-size: 15px;
+    }
+    div.java{
+        font-size: 22px;
+    }
+    .per4{
+        height: 19px;
+        font-size: 15px;
+    }
+    .per5{
+        height: 19px;
+        font-size: 15px;
+    }
+    .per6{
+        height: 19px;
+        font-size: 15px;
+    }
+    .per7{
+        height: 19px;
+        font-size: 15px;
+    }
+    .per8{
+        height: 19px;
+        font-size: 15px;
+    }
+    .per9{
+        height: 19px;
+        font-size: 15px;
+    }
+    .per10{
+        height: 19px;
+        font-size: 15px;
+    }
+    .per11{
+        height: 19px;
+        font-size: 15px;
+    }
+    .per12{
+        height: 19px;
+        font-size: 15px;
+    }
+    .per13{
+        height: 19px;
+        font-size: 15px;
+    }
+    div.la ul{
+        font-size: 17px;
+        line-height: 30px;
+    }
+    h1.cert{
+        font-size: 30px;
+    }
+    div.certificate{
+        padding: 20px;
+        padding-top: 100px;
+    }
+    div.cer{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    div.project{
+        padding-top: 100px;
+    }
+    h1.proj{
+        font-size: 30px;
+    }
+    h1.contact{
+        font-size: 30px;
+    }
+    div.soft{
+        font-size: 22px;
+    }
+    div.lan{
+        font-size: 22px;
+    }
+}
